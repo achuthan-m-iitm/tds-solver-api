@@ -1,0 +1,52 @@
+[
+    {
+        "question": "Extract the value from this: <form><input type='hidden' name='token' value='abc123'></form>",
+        "file": null,
+        "expected_contains": "abc123"
+    },
+    {
+        "question": "How many keys in this JSON? for GA1",
+        "file": "sample_data/sample.json",
+        "expected_contains": "top-level keys"
+    },
+    {
+        "question": "Process GA2 ZIP file and count lines",
+        "file": "sample_data/test_texts.zip",
+        "expected_contains": "text files with a total of"
+    },
+    {
+        "question": "Analyze sentiment of uploaded text for GA3",
+        "file": "sample_data/positive.txt",
+        "expected_contains": "sentiment of the uploaded text is positive"
+    },
+    {
+        "question": "Show sentiment image for uploaded file",
+        "file": "sample_data/positive.txt",
+        "expected_contains": "data:image/png;base64,"
+    },
+    {
+        "question": "Drop missing values in column Age for GA5",
+        "file": "sample_data/missing_age.csv",
+        "expected_contains": "rows remain after dropping"
+    },
+    {
+        "question": "Convert column Name to lowercase for GA5",
+        "file": "sample_data/names_uppercase.csv",
+        "expected_contains": "after lowercasing"
+    },
+    {
+        "question": "Scrape keyword 'stars' from https://github.com/python/cpython for GA5",
+        "file": null,
+        "expected_contains": "keyword 'stars' appears"
+    },
+    {
+        "question": "Extract table data from this HTML: <table><tr><td>Name</td><td>Age</td></tr><tr><td>Alice</td><td>30</td></tr><tr><td>Bob</td><td>25</td></tr></table>",
+        "file": null,
+        "expected_contains": "Extracted first 3 rows"
+    },
+    {
+        "question": "Extract text from this uploaded PDF for GA5",
+        "file": "sample_data/sample_resume.pdf",
+        "expected_contains": "Extracted from PDF"
+    }
+]
