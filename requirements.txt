@@ -1,4 +1,9 @@
 fastapi
 uvicorn
+pandas
+aiohttp
 python-multipart
-openai
+textblob
+beautifulsoup4
+lxml
+fpdf
