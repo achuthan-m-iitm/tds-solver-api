@@ -1,10 +1,14 @@
-fastapi
+aiohttp==3.11.11
+beautifulsoup4==4.13.3
+fastapi==0.115.11
+pandas==2.2.3
+Pillow==11.1.0
+PyMuPDF==1.23.22
+requests==2.32.3
+starlette==0.46.1
+textblob==0.19.0
+
+# Manually added:
 uvicorn
-pandas
-aiohttp
 python-multipart
-textblob
-beautifulsoup4
-lxml
 fpdf
-Pillow
