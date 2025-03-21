@@ -7,3 +7,4 @@ textblob
 beautifulsoup4
 lxml
 fpdf
+Pillow
